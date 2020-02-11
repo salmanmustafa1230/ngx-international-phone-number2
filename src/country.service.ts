@@ -585,6 +585,16 @@ export class CountryService {
       },
       {
         name: '',
+        dialCode: '500',
+        countryCode: 'gs'
+      },
+      {
+        name: '',
+        dialCode: '246',
+        countryCode: 'um'
+      },
+      {
+        name: '',
         dialCode: '599',
         countryCode: 'an'
       },
