@@ -44,6 +44,7 @@ const LOCALES = {
     cm: 'CAMEROON',
     ca: 'CANADA',
     cv: 'CAPE VERDE',
+    cx: 'Christmas Island',
     ky: 'CAYMAN ISLANDS',
     cf: 'CENTRAL AFRICAN REPUBLIC',
     td: 'CHAD',
@@ -266,6 +267,7 @@ const LOCALES = {
     aq: 'ANTÁRTIDA',
     ag: 'ANTIGUA Y BARBUDA',
     ar: 'ARGENTINA',
+    cx: 'Isla de Navidad',
     am: 'ARMENIA',
     aw: 'ARUBA',
     au: 'AUSTRALIA',
@@ -558,6 +560,46 @@ export class CountryService {
       },
       {
         name: '',
+        dialCode: '672',
+        countryCode: 'aq'
+      },
+      {
+        name: '',
+        dialCode: '61',
+        countryCode: 'cx'
+      },
+      {
+        name: '',
+        dialCode: '850',
+        countryCode: 'kp'
+      },
+      {
+        name: '',
+        dialCode: '262',
+        countryCode: 'tf'
+      },
+      {
+        name: '',
+        dialCode: '379',
+        countryCode: 'va'
+      },
+      {
+        name: '',
+        dialCode: '599',
+        countryCode: 'an'
+      },
+      {
+        name: '',
+        dialCode: '64',
+        countryCode: 'pn'
+      },
+      {
+        name: '',
+        dialCode: '672',
+        countryCode: 'hm'
+      },
+      {
+        name: '',
         dialCode: '994',
         countryCode: 'az'
       },
@@ -565,6 +607,11 @@ export class CountryService {
         name: '',
         dialCode: '1242',
         countryCode: 'bs'
+      },
+      {
+        name: '',
+        dialCode: '47',
+        countryCode: 'bv'
       },
       {
         name: '',
