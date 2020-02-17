@@ -570,11 +570,6 @@ export class CountryService {
       },
       {
         name: '',
-        dialCode: '850',
-        countryCode: 'kp'
-      },
-      {
-        name: '',
         dialCode: '262',
         countryCode: 'tf'
       },
@@ -1707,11 +1702,6 @@ export class CountryService {
         name: '',
         dialCode: '678',
         countryCode: 'vu'
-      },
-      {
-        name: '',
-        dialCode: '39',
-        countryCode: 'va'
       },
       {
         name: '',
