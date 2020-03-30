@@ -980,7 +980,7 @@ export class CountryService {
       },
       {
         name: '',
-        dialCode: '44',
+        dialCode: '44-1481',
         countryCode: 'gg'
       },
       {
@@ -1050,7 +1050,7 @@ export class CountryService {
       },
       {
         name: '',
-        dialCode: '44',
+        dialCode: '44-1624',
         countryCode: 'im'
       },
       {
@@ -1075,7 +1075,7 @@ export class CountryService {
       },
       {
         name: '',
-        dialCode: '44',
+        dialCode: '44-1534',
         countryCode: 'je'
       },
       {
