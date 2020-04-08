@@ -68,6 +68,8 @@ export class PhoneNumberComponent
 
     // Set true if you want the model touched upon any change, rather than just when valid or blurred.
     @Input() autoTouch: boolean = false;
+
+    @Input() isForeignCheck: boolean = true;
     
     @Output() onCountryCodeChanged: EventEmitter<any> = new EventEmitter();
 
@@ -137,7 +139,7 @@ export class PhoneNumberComponent
      * Return true if not US or Canada. Eliminates masking and relies solely on Google-libphonenumber for validation
      */
     isForeign(){
-        return this.selectedCountry && this.selectedCountry.countryCode!='us' && this.selectedCountry.countryCode!='ca';
+        return this.isForeignCheck && this.selectedCountry && this.selectedCountry.countryCode!='us' && this.selectedCountry.countryCode!='ca';
     }
 
     /**
