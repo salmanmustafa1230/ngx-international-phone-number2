@@ -114,7 +114,6 @@ const LOCALES = {
     it: 'ITALY',
     jm: 'JAMAICA',
     jp: 'JAPAN',
-    je: 'JERSEY',
     jo: 'JORDAN',
     kz: 'KAZAKHSTAN',
     ke: 'KENYA',
@@ -367,7 +366,6 @@ const LOCALES = {
     it: 'ITALIA',
     jm: 'JAMAICA',
     jp: 'JAPÓN',
-    je: 'JERSEY',
     jo: 'JORDANIA',
     kz: 'KAZAJSTÁN',
     ke: 'KENIA',
@@ -1072,11 +1070,6 @@ export class CountryService {
         name: '',
         dialCode: '81',
         countryCode: 'jp'
-      },
-      {
-        name: '',
-        dialCode: '44-1534',
-        countryCode: 'je'
       },
       {
         name: '',

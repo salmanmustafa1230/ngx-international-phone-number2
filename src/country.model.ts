@@ -110,7 +110,6 @@ export interface CountryCode {
   'it': string;
   'jm': string;
   'jp': string;
-  'je': string;
   'jo': string;
   'kz': string;
   'ke': string;
